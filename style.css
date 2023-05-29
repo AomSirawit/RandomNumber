@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.header{
+    text-align: center;
+    margin-top: 5vh;
+}
+.header h1{
+    color: hsl(218, 44%, 22%);
+}
+.header p{
+    font-size: 20px;
+    color: hsl(220, 15%, 55%);
+}
+.container{
+    position: absolute;
+    top: 20vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    height: 400px;
+    width: 500px;
+    margin: 15vh auto;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.heading{
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.max-min-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.max-min-input label {
+    color: hsl(220, 15%, 55%);
+}
+
+.max-min-input input {
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: hsl(212, 45%, 89%);
+    border: none;
+}
+.max-min-input input:hover{
+    color: hsl(218, 44%, 22%);
+}
+.output{
+    font-size: 40px;
+    color: hsl(218, 44%, 22%);
+}
+.generate-btn{
+    padding: 10px;
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+    background-color: hsl(125, 32%, 64%);
+    color: #fff;
+}
+.generate-btn:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    color: hsl(220, 15%, 55%);
+}
+.footer a{
+    text-decoration: none;
+    color: hsl(220, 15%, 55%);
+}
+.footer a:hover{
+    opacity: 70%;
+}
+@media screen and (max-width: 600px){
+    .header{
+        text-align: center;
+        margin-top: 5vh;
+    }
+    .box {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 15px;
+        height: 350px;
+        width: 300px;
+        margin-top: 7vh;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+   
+}
