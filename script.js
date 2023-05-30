@@ -14,7 +14,7 @@ function generateNumber(){
     else{
         let randomNumber = Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
         result.textContent = randomNumber;
-
+        
     }
 
 }
