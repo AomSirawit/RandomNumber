@@ -7,8 +7,15 @@ function generateNumber(){
     let maxValue = Number(max.value);
 
     let result = document.getElementById("result");
-    let randomNumber = Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
-    result.textContent = randomNumber;
+
+    if(minValue > maxValue){
+        result.textContent = "กรุณากรอกใหม่ !!";
+    }
+    else{
+        let randomNumber = Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
+        result.textContent = randomNumber;
+
+    }
 
 }
 generateBtn.addEventListener("click", generateNumber);
