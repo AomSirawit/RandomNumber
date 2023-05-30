@@ -103,7 +103,7 @@ body{
     .box {
         background-color: hsl(0, 0%, 100%);
         border-radius: 15px;
-        height: 350px;
+        height: 400px;
         width: 250px;
         margin-top: 7vh;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -114,5 +114,9 @@ body{
     }
     .generate-btn{ 
         width: 200px;
+    }
+    .output{
+        font-size: 30px;
+        color: hsl(218, 44%, 22%);
     }
 }
