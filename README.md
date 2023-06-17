@@ -50,4 +50,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Authors
 
-- [AomSirawit(https://github.com/your-AomSirawit)
+- [AomSirawit(https://github.com/AomSirawit)
